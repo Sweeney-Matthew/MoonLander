@@ -45,11 +45,6 @@ game.o: game.h game.cpp uiDraw.h uiInteract.h point.h ground.h lander.h
 driver.o: driver.cpp game.h uiInteract.h
 	g++ -c driver.cpp
 
-#######################################################################
-# ADD YOUR ADDITIONAL RULES HERE!
-#
-# Then, don't forget to add them to the dependecy list for a.out above.
-#######################################################################
 lander.o: lander.h lander.cpp uiDraw.h point.h velocity.h
 	g++ -c lander.cpp
 
